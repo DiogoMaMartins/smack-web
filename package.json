@@ -14,6 +14,7 @@
     }
   ],
   "scripts": {
+    "start":"npx webpack-dev-server --port 9003 --hot --inline --watch --config webpack.config.babel.js",
     "test": "echo \"Error: test command not supported yet.\" && exit 1",
     "build": "rm -rf ./dist && NODE_ENV=production webpack --config webpack.config.babel.js",
     "dev": "webpack-dev-server --port 9003 --hot --inline --watch --config webpack.config.babel.js"
